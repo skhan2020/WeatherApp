@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    width: 100%;
+    height:100vh;
+    background-image: url('image/weather2.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    font-family: sans-serif;
+    min-height: 700px;
+}
+
+.holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.entry{
+    display: inline-block;
+    background: rgba(59, 74, 107, .4);
+    width: 500px;
+    min-height: 300px;
+}
+#content {
+    font-size: 25px;
+    padding-top: 15px;
+    color: #d5ebeb;
+    font-size: 33px;
+}
+
+.info{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.headline {
+    color: white;
+    background: black;
+    width: 100%;
+    height: 110px;
+    font-size: 40px;
+}
+.title{
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+input{
+    height: 60px;
+    width: 320px;
+    background: #F0FAFA;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-style: solid;
+    border-width: thin;
+    border-color: dimgray;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+button{
+    margin: 40px;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background: #1e2024;
+    font-size: 26px;
+    font-family: sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    color: white;
+    cursor: pointer;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background: #F0FAFA;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 350px;
+    height: 120px;
+    padding: 10px;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    font-family: sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    font-family: sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    font-family: sans-serif;
+
+} 
